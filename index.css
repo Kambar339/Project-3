@@ -1,0 +1,237 @@
+ body{
+    min-width: 1000px;
+    background-size:contain; 
+    margin: 24px 160px 24px 160px;
+}
+
+.header-logo {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 24px 160px;
+    gap: 752px;
+
+}
+#newslist {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 160px;
+    gap: 45px;
+}
+
+.ava {
+    max-width: 24px;
+    max-height: 24px;
+}
+
+.header-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 64px 160px;
+    gap: 752px;
+}
+
+.footer {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 200px 160px 0px;
+    gap: 32px;
+}
+
+.credit-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 105px;
+    height: 38px;
+}
+
+.credit-p {
+    height: 18px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #081E34;
+    opacity: 0.5;
+}
+
+.sign-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    height: 38px;
+}
+
+.sign-p {
+    height: 18px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #081E34;
+}
+
+
+#open-page .news-short{
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: left;
+    letter-spacing: 0em;
+    width: 90%;
+}
+
+#open-page .news-subheader{
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: left;
+}
+#open-page .news-info-date{
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+
+#news-list, #open-page{
+    margin-bottom: 200px;
+}
+
+.news{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+
+    font-family: 'Inter', sans-serif;
+
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: #A9A9A9;
+
+    padding: 0px 0px 32px 0px;
+}
+.news img{
+    width: 265px;
+}
+.news-content{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 70%;
+}
+.news-info, .news-info-buttom-content{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+}
+.news-info-from, .news-info-date, .news-info-time, .news-selected{
+    color: #A9A9A9;
+}
+.news-info-name{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+}
+.news-title{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    border: none;
+    background: none;
+    text-align: start;
+    padding: 0;
+}
+
+#open-page .news-info-author{
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+#open-page .news-text{
+    font-family: SF Pro Display, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+
+}
+
+.news-short{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+.news-info-buttom{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+#open-page{
+    height: auto;
+}
+
+#open-page button{
+    border: none;
+    background: none;
+}
+
+#open-page button img {
+    width: 24px;
+}
+
+#open-page .news{
+    flex-direction: column;
+}
+
+
+.news-info-buttom div{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.news-icons img{
+    width: 24px;
+    height: 24px;
+}
+
+
+#open-page .news-img{
+    width: 100%;
+    border-radius: 4px;
+}
+
+
+
